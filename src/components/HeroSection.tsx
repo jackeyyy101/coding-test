@@ -17,6 +17,10 @@ export function HeroSection() {
       <div className="grid items-start gap-8 lg:grid-cols-[minmax(0,1.08fr)_minmax(0,0.92fr)] lg:gap-10">
         <div className="flex min-w-0 flex-col gap-6 lg:gap-8">
           <div className="min-w-0 animate-rise">
+            <div className="mb-4 flex flex-wrap items-center gap-2">
+              <Chip active>本周新上线</Chip>
+              <span className="food-body-sm text-[var(--food-text-muted)]">新增 12 家编辑首刷餐厅</span>
+            </div>
             <h1 className="food-display food-h1 balanced-title text-[var(--food-text)]">饭局</h1>
             <p className="mt-5 max-w-2xl food-body text-[var(--food-text-muted)]">
               同城热门榜单、真实点评和即时灵感都放在这里。下班约饭、周末探店、临时起意想吃点好的，都能更快找到想去的那一口。
